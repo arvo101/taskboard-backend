@@ -1,10 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const { db } = require("../storage/db");
 
-// GET /board
-router.get("/", (req, res) => {
-  res.json(db.board);
-});
+const { getBoard } = require("../controllers/boardController");
+
+router.get("/", getBoard);
 
 module.exports = router;

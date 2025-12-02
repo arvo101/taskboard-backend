@@ -11,7 +11,7 @@ app.use("/board", boardRoutes);
 app.use("/", listRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ status: "ok", message: "Taskboard API is running" });
+  res.json({ status: "ok", message: "Taskboard API is running!" });
 });
 
 app.listen(PORT, () => {
