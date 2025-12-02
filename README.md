@@ -189,7 +189,7 @@ This is in-memory storage only. Restarting the server resets all tasks.
 
 ---
 
-## Possible Extensions (Bonus Ideas)
+## Possible Extensions (Soon to be added!)
 
 - **Move a task between lists**  
   `PATCH /tasks/:taskId` with a new `list_id`.
