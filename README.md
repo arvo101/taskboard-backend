@@ -34,7 +34,8 @@ It exposes endpoints to fetch the board and create tasks in specific lists.
 ## Installation
 
 ### Clone the repository
-```git clone https://github.com/arvo101/taskboard-backend.git
+```
+git clone https://github.com/arvo101/taskboard-backend.git
 cd taskboard-backend
 ```
 
