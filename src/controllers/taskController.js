@@ -1,3 +1,4 @@
+const { v4: uuidv4 } = require("uuid");
 const { db } = require("../storage/db");
 
 function createTask(req, res) {
@@ -19,7 +20,7 @@ function createTask(req, res) {
   }
 
   const newTask = {
-    id: `task-${Date.now()}`,
+    id: uuidv4(),
     title,
     description
   };
