@@ -33,7 +33,6 @@ It exposes endpoints to fetch the board and create tasks in specific lists.
 
 ### Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/arvo101/taskboard-backend.git
 cd taskboard-backend
@@ -48,7 +47,7 @@ npm install uuid
 npm run dev
 
 # The API will be available at:
-```http://localhost:3000```
+http://localhost:3000
 
 
 ## API Documentation
