@@ -75,7 +75,7 @@ Use this to verify that the API is running.
   "status": "ok",
   "message": "Taskboard API is running!"
 }
-
+```
 ## Get Board
 
 **Endpoint**
